@@ -25,3 +25,65 @@ header > h1{
     font-size: 14px;
     font-weight: 500;
 }
+
+.card-section{
+    padding-top: 75px;
+}
+
+.card-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.card-header{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #918E9B;
+}
+
+.card-header > h1{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.card-header > a{
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.card-name{
+    display: flex;
+    gap: 4px;
+    letter-spacing: 3px;
+    font-size: 12px;
+    font-weight: 400;
+    color: black;
+    align-items: center;
+    color: #2B283A;
+    text-decoration: none;
+}
+
+.card-name > img{
+    width: 7px;
+    height: 10px;
+    margin-bottom: 2px;
+}
+
+.date{
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.main-image{
+    width: 155px;
+    object-fit: cover;
+    border-radius: 7px;
+}
