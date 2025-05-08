@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+html, body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+header{
+    background-color: #F55A5A;
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 16px;
+    justify-content: center;
+    gap: 4px;
+}
+
+header > img {
+    width: 24px;
+    height: 24px;
+}
+
+header > h1{
+    font-size: 14px;
+    font-weight: 500;
+}

@@ -1,7 +1,7 @@
-import { createRoot } from "react-dom/client";
+import {createRoot} from "react-dom/client"
+import App from "./App.jsx"
 
-let root = createRoot(document.getElementById("root"))
-
+const root = createRoot(document.getElementById("root"))
 root.render(
-    <h1>123</h1>
+    <App/>
 )
