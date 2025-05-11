@@ -13,7 +13,7 @@ export default function Entry(props){
                             <img src="./public/image.png"/>
                             <p>{props.country}</p>
                         </div>
-                        <a>View on Google Maps</a>
+                        <a href={props.googleMapsLink}>View on Google Maps</a>
                     </div>
                     <h1>{props.title}</h1>
                     <p class="date">{props.dates}</p>
