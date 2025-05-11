@@ -87,3 +87,7 @@ header > h1{
     object-fit: cover;
     border-radius: 7px;
 }
+
+.hero{
+    margin-bottom: 100px;
+}
